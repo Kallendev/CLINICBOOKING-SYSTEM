@@ -1,0 +1,51 @@
+# Clinic Booking System 🏥
+
+## 📌 Project Description
+This is a MySQL-based relational database for a clinic booking system. It manages:
+- Patient records
+- Doctor profiles
+- Appointments
+- Payments
+
+## 🛠️ How to Set Up
+Step 1: Clone the Repository
+Open your terminal or Git Bash and run:
+git clone https://github.com/Kallendev/CLINICBOOKING-SYSTEM.git
+
+Step 2: Navigate into the Project Folder
+cd CLINICBOOKING-SYSTEM
+
+Step 3: Log in to MySQL (Terminal Method)
+mysql -u root -p
+You’ll be prompted to enter your MySQL root password.
+
+Step 4: Run the SQL Script
+After logging in to MySQL, exit with exit;, then run this from your terminal:
+
+mysql -u root -p < clinic_system.sql
+
+## Alternative (Workbench Method)
+1.Open MySQL Workbench
+
+2.Click on your MySQL connection
+
+3.Open clinic_system.sql from the project folder
+
+4.Click the lightning bolt (⚡) button to run the script
+
+
+
+## 📷 ERD Screenshot
+## 🗺️ ERD Diagram
+
+![Clinic ERD](./clinicbooking%20system.drawio%20(2).png)
+## 🗺️ ERD Diagram (View Online)
+
+[Click here to view the ERD on Draw.io](https://app.diagrams.net/https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=clinicbooking%20system.drawio&dark=auto#R%3Cmxfile%3E%3Cdiagram%20name%3D%22Page-1%22%20id%3D%22WiZLyk1UBdFrYxnFH5Bl%22%3E7V1Rc5s4EP41nrk%2BtGOBwelj7SR3N5fe9ZJ2rvfUUYxiM8HIh%2BXGzq8%2FCZCNkbAFMRgsZTIJWsQKtJ%2F0SctK9OzxfP1rBBezz9hDQc%2Fqe%2Buefd2zLLcP6F8m2CQCu28ngmnke4kI7AQP%2FitKhf1UuvI9tNzLSDAOiL%2FYF05wGKIJ2ZPBKMIv%2B9mecLBf6gJOkSB4mMBAlP7je2SWSK%2Bc%2Fk7%2BG%2FKnM14y6Kdn5pBnTgXLGfTwS0Zk3%2FTscYQxSY7m6zEKWN3xekmuuy04u72xCIVE5QJ3%2Ffz0MYDD1%2F5oZSFv%2BMO9Hb8HbqLmJwxW6RN%2FgcSnKpfpXZMNrwr6AAt2SOAjE42WBEYktZjdpwJqAwL9EEVUAOJ0EMDF0o%2BzJ5KZH3h3cINXhCviqdGTv0befWIwlpfa7o4qY0mm%2FIkqf0hvhp2GgT8N6fGE3isrcRShJb2XO7gkaY4ZmQfpYfqQKCJoXVh9YGsUCmaE54hEG5qFX2CndkyBzM36skOFxW0%2FyyDCGqRCmCJxulW9Le2eIheGU%2Fps2%2BJssF8cGIjlXUmKs3OlwYDWTggJGuFV6C2zCKEHmQfdiWLclMHQUMDQYezcs2YwmuHIf2WICVILZ%2FEUp1%2F8eQBD2r6glxONcNyfxLjwg2CMA8xAF%2BIQCbhjmbwIL77CaIpIKlhgn0Gc3pszor%2B00sb9D07Pofc6pmmwS9Nflj0iYxwuSUTxzXQgCrMXxKA2IniRKg3QE9cfpRZhx4%2BYEDwvg8QDTVXE52bf8MfwmAdIFo57yCgNgyuxK%2FmjEAj0cYkPgx3y4%2B6DdeFwZzaJbaW1va3hfNXnOw1MK%2F4piHvhme95iHYgo5eZT9DDAk5YphdKYhW6jgPtQjRYxkJ2SQNJ%2BouS2proDz4KQFgknPKDXndeQHDWSPKOltTsfji9S650c4hx2oKYda%2BoiYPhSRGkpK4BCHFyNZRyhFL6dVKKq0gpTl2Uwh9EBQbN9B%2FI87m%2BxvkkM2sowyeHrFOeT%2FLamugMLAEFT6sg%2BBHCOWo7nbQCICXpozpglNQ1gRjb0Mf56QMARf44NEN%2BG38MDH%2FkW0Vp%2FijpvyiprYnewBFQ4OFHwxwK0CjJHNWhoqSuCayI%2FlDDHM0zh6PIHLU5syyZT9MNWB15%2Fk96OCVxBSSixygvoYVK8lW6VF%2B%2BKgDJpfvPLNGROkWhhyJDWQro0M5XBiT%2BVsNZzXPW1bk5C5TxmraGPt5gkAT4%2BhEEkPhFFzNmH6v%2F7c%2Ff%2F%2F5200WmqAEI%2BnGB8Xy1gQssVc9XjVzQRdfXGwxS0bl1AVwgerfQHPqBrlxwIldW97nAllGBcWHUNUk9HD2YD%2BezJTi8yP5pIE5Or%2FGE4Oii4kvn%2BGcGYnHObBoTmIWghwKUTecQGuDJM%2BKjrP0GcSI0Olf7aFQdrmyFFxvLyh3PZvxcayzroGDC1pZYVkecYOsdy%2BpUiz3qPH05lgAEL6avOJS1f3ZQtDuetQg12o3FHeOWacItc4RWVONZ66OVLjpl6usdNHXZOKLHxsSzlgGIfvRhopJaQB8fzx3O6pRYaKkBfVQLD%2Bp8OKsjhgctF2hCje2%2FQuLj0HCIAkq0i2x1TJRQCzgEqLq2aiMRPgkyr4XOSF3VApc6T13uJcYtNY4S7ahru5DMcNdZuWuoyF31RTWBLi4Ir26QFPj6ucgAEN%2B7aB3VVAQE7VxhQLpCLxlfsndde6Bw%2F1ux3dVYd81M%2FYmeDNjdv%2Fdg9PxLNH38hXXLvbgTi%2F%2B9S%2F6zM3SoniQs20oPgPXuXTKcTfXyoeynRdzbz5Nt07aD3eR%2Bjox2OxjtooTjI%2FFQHE7bCBQJgl0J5KxhOQh3LwQFSNcemtHOyfdTK1pBVhyEIkVkjTHcZkc1adPQcDxkid47uCOdOBjFhXNW0eHjcnF%2B70q741IKcXRgOHVaXCmpawJYvExDNvUuGDpCNpLQFCnZ1OYWBrY4tb49N9mc00ebtgz9nLTAFufe3dm%2Fsx0YKckjb3DRtgY0JsKxDTyiPI%2BukUjEIEfNiUTTfdeALdt4bRs8b3jkOEQ05BET6tgKHpH4R5vmEbMFWwu4S9MgS2CLvtesw82jpRsKU0GKhhRmIi1bQWGSDdkapjCuWZdwFVvTuEYwEJ2nWbYgfjdXdtUABf3oYCC6Uw0dNE8Hsg%2F2Semgtq%2FZgEEJH%2Bkl0EGC%2FNJ00PkP1oCB6AKNaJPo5tKsGgBQkgTe8EGa1iBCdIV%2BgZv5pX1ntWP7YNl888SUIwbKH3W1ykGyg1GIA%2BOIbSQKMekZykQhNrzmYiD6YTWPQhxo%2BmEKMBCdoouExTrwRu%2B8EYdFmNFvAYdkSzVDLDXMh48Qi%2BpmWPV5RyWboukdKOJUmy93330q2RctH93ebm5pB070Wxgu2UrNcEnzXCKLOmyaTIqXhZpokcY6pgKYXD6BiXNkOKfFEUNcKvjQkLjEmbQhrjMQl8QBKyWu%2Bl4KltmXrTUU8pY%2B4KoSR3T%2FpaBk4zXuPOtqNGENMChJBW94NaiirhFcGH9YK6hAdXvf%2Bt60uJrFh7jV%2FF3df4%2Fiiv4uTgVU9wx30t9VAxD0ezniKji0kDdF%2FEUWrVifbO5REO%2F8fLM7k7zuStgAWPszOBR6n6Iott7NPcXHV%2FwZhhuGAfZg25ALqjvafM8m%2FmWJDw5PXq%2BzJ685pdBuHj8jDsDMhls9WqXxT7yfFj0e0x%2B2oxZa%2B%2BQ7vzl6nCmHpnbFsAQvJakWVheFYEtFS7yKJuhQraezd8IprjCjwp4AQMYZW2EUW%2Brn%2Fj0fwOsXRrSZlsBJKk9aXEXyrOlVO3wKiqycImHkk9SFoOh0QFcIL2kK6BUAy5sGKNc01EGrgMXjy4prxeIw9xHBqlB0c3oGrhoUqWXhJpMtHZMq32%2BaLLqtYX8%2FO296hY%2BRa1H8C5%2FK%2BYdH8g8P5qcHSYWcuJkq%2BKlO20znMPT%2Biscs8YRGdqJq672lP22gGx4BcbyNK%2Bx3Vmsbd3Kgcys38kEOvVen4huajDDbjXOXPYKL2WfsIZbjfw%3D%3D%3C%2Fdiagram%3E%3C%2Fmxfile%3E)
+
+
+
+## 💡 Relationships
+- One Patient can have many Appointments (1:M)
+- One Doctor can have many Appointments (1:M)
+- Each Appointment can have one Payment (1:1)
