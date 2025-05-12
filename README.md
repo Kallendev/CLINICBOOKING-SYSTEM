@@ -13,7 +13,7 @@ Open your terminal or Git Bash and run:
 git clone https://github.com/Kallendev/CLINICBOOKING-SYSTEM.git
 
 Step 2: Navigate into the Project Folder
-cd CLINICBOOKING-SYSTEM
+-  cd CLINICBOOKING-SYSTEM
 
 Step 3: Log in to MySQL (Terminal Method)
 
